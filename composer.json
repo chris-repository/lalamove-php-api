@@ -2,8 +2,9 @@
   "name": "foodkit/lalamove-php-api",
   "description": "PHP client for the Lalamove API",
   "type": "library",
+  "minimum-stability": "dev",        
   "require": {
-    "php": "^7.3|^8.0",
+    "php": "^7.3|^7.4|^8.0",
     "nesbot/carbon": "^2.57.0",
     "guzzlehttp/guzzle": "^7.4.2",
     "psr/log": "^1.1 || ^2.0 || ^3.0"
